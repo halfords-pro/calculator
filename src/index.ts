@@ -55,7 +55,7 @@ export function validateSumInput(
 
 export function createServer(): Server {
   const server = new Server(
-    { name: "calculator-mcp", version: "0.1.0" },
+    { name: "calculator-mcp", version: "0.1.1" },
     { capabilities: { tools: {} } }
   );
 
